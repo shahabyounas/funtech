@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="index.client.js"></script>
+    <title>Calderdale College</title>
+    <style>
+      h1 {
+        font-size: 5em;
+        color: hsla(4, 94%, 69%, 1);
+      }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      button {
+        padding: 1em;
+        margin: 1em;
+        font-size: x-large;
+      }
+
+      button:active {
+        background-color: hsla(4, 94%, 69%, 1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Calderdale College Demo</h1>
+    </header>
+
+    <div>
+      <button id="decrementBtn">Decrement</button>
+      <button id="incrementBtn">Increment</button>
+    </div>
+
+    <div>
+      <h1 id="number">0</h1>
+    </div>
+  </body>
+</html>
